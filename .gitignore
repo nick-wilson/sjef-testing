@@ -2,3 +2,5 @@
 *.molpro
 *.out
 *.xml
+*.exe
+*.obj

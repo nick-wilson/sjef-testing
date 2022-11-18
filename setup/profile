@@ -1,0 +1,4 @@
+source $(cygpath -U "$USERPROFILE")/anaconda3/etc/profile.d/conda.sh
+conda activate base
+export PATH="$PATH:$(cygpath -U $PROGRAMFILES/Molpro/bin)"
+export SCRATCH=$(cygpath -m "$LOCALAPPDATA")

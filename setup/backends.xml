@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<backends>
+  <backend name="local" 
+           run_command="molpro {-n %n!MPI size} {-M %M!Total memory} {-m %m!Process memory} {-G %G!GA memory}" 
+  />
+  <backend name="marat" host="nickw@pjkmarat.chemy.cf.ac.uk" cache="/mnt/ssd1/tmp/nickw/sjef-backend" run_command="/usr/local/bin/molpro {-n %n:1!MPI size}"/>
+</backends>
