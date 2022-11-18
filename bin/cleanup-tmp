@@ -1,0 +1,4 @@
+#!/bin/sh
+~/bin/kill-molpro.bat
+cd "/c/Users/$USERNAME/AppData/Local/Temp" || exit $?
+rm -v -f sf_* prepin* t[0-9]*[0-9] [0-9]*.out_* [0-9]*.xml_* df_* ftn_* RYSRW* ABDATA* init_job* ftn_* libmol.index*

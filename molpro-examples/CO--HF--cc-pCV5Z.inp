@@ -1,0 +1,8 @@
+memory,1,g;
+angstrom;geometry={
+C;O,C,1.12887680
+}
+basis = cc-pCV5Z
+rhf;
+hf
+            

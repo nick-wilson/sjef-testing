@@ -1,0 +1,8 @@
+memory,1,g;
+angstrom;geometry={
+C;O,C,1.12887680
+}
+basis = cc-pCVQZ
+rhf;{mp2;core}
+ccsd(t)
+            
